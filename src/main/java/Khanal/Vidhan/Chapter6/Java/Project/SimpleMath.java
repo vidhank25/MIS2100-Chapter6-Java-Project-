@@ -7,5 +7,12 @@ public class SimpleMath {
             throw new ArithmeticException("Can't divide by 0");};
         return answer;
         }
+	
+	public double multiply(double a, double b){
+		double answer = a*b;
+        return answer;
+        }
+	
+	
 }
 
